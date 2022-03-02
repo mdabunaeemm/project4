@@ -1,0 +1,79 @@
+footer{
+    background-color:#090C15;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+.footer{
+    display: flex;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.footer .social-link,.footer .ul-about,.log-sign{
+   
+    width: 300px;
+}
+.footer .ul-about{
+    margin: 10px 0;
+    
+    
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+.footer .ul-about li{
+    width: fit-content;
+    list-style: none;
+    color: black;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    padding:10px 0;
+    background-color: white;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+.footer .social-link{
+    margin: 10px 0;
+    border-radius: 10px;
+}
+.footer .social-link li{
+    width: fit-content;
+    font-size: 25px;
+    list-style: none;
+    padding:10px;
+}
+.footer .social-link li a{
+    color: white;
+}
+.log-sign{
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+.log-sign button{
+    width: fit-content;
+    color: white;
+    background-color: rgba(128, 0, 128, 0.075);
+    border-radius: 10px;
+    padding:20px 20px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    margin: 10px 0;
+    cursor: pointer;
+    text-transform: uppercase;
+    
+
+}
+footer span{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}

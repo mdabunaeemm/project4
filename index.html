@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="footer.css">
+    <title>Shopping</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <h1>NAEEM</h1>
+            </div>
+            <form action="submit" class="search">
+                <input type="text" placeholder="Enter Options">
+                <button type="search">Search</button>
+            </form>
+            <div class="navber">
+                <div class="show-hide">
+                    <span class="show"><i id="bars-times" class="fa fa-bars"></i></span>
+                </div>
+                
+                <ul>
+                    <li>Home</li>
+                    <li>Order</li>
+                    <li>Cart</li>
+                    <li>Message</li>
+                    <li class="loginNow">Log In</li>
+                    <li class="signupNow">Sign Up</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <form class="order-form" action="">
+        <div class="order-container">
+            <div class="order-product">
+
+            </div>
+            <div class="order-information">
+                    <h2>Order Now</h2>
+                    <input type="text" placeholder="Name">
+                    <input type="number" placeholder="Phone Number">
+                <div>
+                    <label for="count">Number of Product</label><input class="count" type="number" value="1">
+                </div>
+                <div class="order-button">
+                    <input class="cancel" type="button" value="Cancel">
+                    <input type="submit" value="Done">
+                </div>
+                
+                
+            </div>
+        </div>
+        
+    </form>
+    <form class="login" action="submit">
+        <div class="login-sub">
+            <span>Log In</span>
+            <div class="email-pass">
+                <input type="email" placeholder="Email">
+                <input type="passowrd" placeholder="Passowrd">
+            </div>
+            <h5 class="signupNow">Create New Account!</h5>
+            <div class="button-submit">
+                <input class="cancel" type="button" value="Cancel">
+                <input type="submit" value="Done">
+            </div>
+        </div>
+    </form>
+    <form class="signup" action="submit">
+        <div class="signup-sub">
+            <span>Sign Up</span>
+            <div class="email-pass">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="passowrd" placeholder="Passowrd">
+            </div>
+            <h5 class="loginNow">Have you an account! <a>Log In</a></h5>
+            <div class="button-submit">
+                <input class="cancel" type="button" value="Cancel">
+                <input type="submit" value="Done">
+            </div>
+        </div>
+    </form>
+    <div class="photo">
+        <span>Hi, what do you want to buy?</span>
+    </div>
+    <div class="filter">
+        <ul>
+            <li>All</li>
+            <li>Laptop</li>
+            <li>The Bag</li>
+            <li>Shoes</li>
+        </ul>
+    </div>
+    <div class="main">
+    </div>
+    
+    <footer>
+        <div class="footer">
+            <div class="about">
+                <ul class="ul-about">
+                    <li>About</li>
+                    <li>Your Offer</li>
+                    <li>Discount</li>
+                    <li>get Job</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
+            <div class="social">
+                <ul class="social-link">
+                    <li><a href="#"><i class="fa fa-twitter-square"></i>   Twitter</a></li>
+                    <li><a href="#"><i class="fa fa-facebook-square"></i>   Facebook</a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i>  Linkdin</a></li>
+                    <li><a href="#"><i class="fa fa-youtube-square"></i>   Youtube</a></li>
+                </ul>
+
+            </div>
+            <div class="log-sign">
+                <button class="loginNow">Log In</button>
+                <button class="signupNow">Sign Up</button>
+            </div>
+        </div>
+        <span>Copyright © 2022 Naeem</span>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+</html>
